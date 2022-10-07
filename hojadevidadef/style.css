@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@200;500;700&display=swap');
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EAE0D5;
+}
+#titulo {
+    color: #0A0908;
+    font-size: 50pt;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+#acerca{
+    color: #0A0908;
+    font-size: 20pt;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+#intro{
+    color: #0A0908;
+    font-size: 15pt;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+#mas{
+    color: #0A0908;
+    font-size: 40pt;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+#letrasvinculo{
+    color: white;
+}
+.caja{
+    border: 2px solid #0A0908;
+    background-color: #5E503F;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    margin: 5px;
+}
+.flex-container{
+    border: 2px #0A0908;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.caja2{
+    margin: 0 auto;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+.flex-container2{
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.fondo{
+    background-image: url("./img/programming.jpg");
+    background-position: right center;
+}
